@@ -14,7 +14,7 @@ namespace Tests.Backend.DogFactTests
         }
 
         [Fact]
-        public void LimitOfFactsIsAsExpected()
+        public void LimitOfFactsIsAsExpectedTest()
         {
             DogFactResponse response = Keywords.GetFact(TestData.DogFactLimit);
             Assert.True(response.Fact.Length == TestData.DogFactLimit);

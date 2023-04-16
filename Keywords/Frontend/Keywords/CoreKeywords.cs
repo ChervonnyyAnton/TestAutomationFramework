@@ -20,7 +20,7 @@ namespace Keywords.Frontend.Keywords
         public CoreKeywords Open(string url)
         {
             _driver.Navigate().GoToUrl(url);
-            AnimationDelay(5);
+            AnimationDelay(3);
 
             return this;
         }
@@ -37,7 +37,7 @@ namespace Keywords.Frontend.Keywords
 
         public bool IsDisplayed(By locator)
         {
-            WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(5));
+            WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(3));
             wait.PollingInterval = TimeSpan.FromMilliseconds(500);
 
             try
@@ -74,11 +74,6 @@ namespace Keywords.Frontend.Keywords
         public void AnimationDelay(int timeInSeconds)
         {
             Thread.Sleep(timeInSeconds * 1000);
-        }
-
-        internal IWebElement FindElement(object placeholder)
-        {
-            throw new NotImplementedException();
         }
     }
 }

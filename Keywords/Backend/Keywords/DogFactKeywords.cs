@@ -19,10 +19,5 @@ namespace Keywords.Backend.Keywords
 
             return Tools.DeserializeResponse<DogFactResponse>(response);
         }
-
-        public DogFactResponse GetFact(object dogFactLimit)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

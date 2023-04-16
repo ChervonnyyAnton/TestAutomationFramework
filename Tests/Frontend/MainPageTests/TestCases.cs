@@ -9,7 +9,7 @@ namespace Tests.Frontend.MainPageTests
         [Theory]
         [InlineData(Pet.cat)]
         [InlineData(Pet.dog)]
-        public void ToggleButtonIsDisplayedTest(Pet pet)
+        public void AfterClickOnPetPictureTheFactIsDisplayedTest(Pet pet)
         {
             string placeholderBefore = Keywords.OpenMainPage().GetPlaceholderValue();
 
