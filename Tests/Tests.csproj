@@ -28,4 +28,14 @@
     <ProjectReference Include="..\Helpers\Helpers.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Backend\CatFactTests\" />
+    <None Remove="Backend\DogFactTests\" />
+    <None Remove="Frontend\MainPageTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backend\CatFactTests\" />
+    <Folder Include="Backend\DogFactTests\" />
+    <Folder Include="Frontend\MainPageTests\" />
+  </ItemGroup>
 </Project>

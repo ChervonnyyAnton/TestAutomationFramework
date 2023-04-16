@@ -56,7 +56,7 @@ namespace DataProvider.RunSettings
 		{
 			if (_stage == null)
 			{
-				throw new InvalidOperationException($"{nameof(InitializeSettings)} needs to be called prior to working with properties.");
+				throw new InvalidOperationException($"{nameof(InitializeSettings)} needs to be called prior to work with properties.");
 			}
 		}
 

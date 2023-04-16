@@ -75,6 +75,10 @@ namespace Keywords.Frontend.Keywords
         {
             Thread.Sleep(timeInSeconds * 1000);
         }
+
+        internal IWebElement FindElement(object placeholder)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-

@@ -1,4 +1,6 @@
 using System.Net;
+using Xunit;
+
 namespace Tests.Backend.Smoke
 {
 	public class TestCases : TestBase

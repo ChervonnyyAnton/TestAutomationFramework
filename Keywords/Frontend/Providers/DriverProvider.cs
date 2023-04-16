@@ -26,4 +26,3 @@ namespace Keywords.Frontend.Providers
             }
         }
 }
-

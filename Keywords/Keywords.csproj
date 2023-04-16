@@ -9,11 +9,13 @@
     <None Remove="Frontend\" />
     <None Remove="Frontend\Providers\" />
     <None Remove="Frontend\Keywords\" />
+    <None Remove="Backend\Keywords\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Frontend\" />
     <Folder Include="Frontend\Providers\" />
     <Folder Include="Frontend\Keywords\" />
+    <Folder Include="Backend\Keywords\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="WebDriverManager" Version="2.16.2" />

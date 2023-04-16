@@ -8,4 +8,3 @@ namespace DataProvider.Frontend
         public static string PlaceholderText => "Press the picture to get the fact.";
     }
 }
-

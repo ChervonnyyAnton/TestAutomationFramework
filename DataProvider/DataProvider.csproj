@@ -14,9 +14,13 @@
   <ItemGroup>
     <None Remove="Frontend\" />
     <None Remove="Frontend\Pages\" />
+    <None Remove="Backend\ResponseDTO\" />
+    <None Remove="Frontend\Structures\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Frontend\" />
     <Folder Include="Frontend\Pages\" />
+    <Folder Include="Backend\ResponseDTO\" />
+    <Folder Include="Frontend\Structures\" />
   </ItemGroup>
 </Project>

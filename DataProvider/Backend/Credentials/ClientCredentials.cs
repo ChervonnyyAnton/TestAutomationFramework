@@ -1,4 +1,5 @@
 using DataProvider.RunSettings;
+
 namespace DataProvider.Backend.Credentials
 {
 	public static class ClientCredentials

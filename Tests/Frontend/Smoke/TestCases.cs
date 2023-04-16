@@ -1,5 +1,6 @@
 using DataProvider.Frontend;
 using DataProvider.Frontend.Pages;
+using Xunit;
 
 namespace Tests.Frontend.Smoke
 {
