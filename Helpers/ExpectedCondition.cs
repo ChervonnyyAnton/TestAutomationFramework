@@ -37,7 +37,7 @@ namespace Helpers
 
         private static IWebElement ElementIfVisible(IWebElement element)
         {
-            return element.Displayed ? null : element;
+            return !element.Displayed ? null : element;
         }
     }
 }
