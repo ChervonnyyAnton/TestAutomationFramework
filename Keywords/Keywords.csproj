@@ -2,9 +2,22 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Helpers\Helpers.csproj" />
-    <ProjectReference Include="..\DataProvider\DataPRovider.csproj" />
+    <ProjectReference Include="..\DataProvider\DataProvider.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Frontend\" />
+    <None Remove="Frontend\Providers\" />
+    <None Remove="Frontend\Keywords\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Frontend\" />
+    <Folder Include="Frontend\Providers\" />
+    <Folder Include="Frontend\Keywords\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="WebDriverManager" Version="2.16.2" />
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

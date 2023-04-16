@@ -1,0 +1,13 @@
+﻿{
+    "Url": "https://chervonnyyanton.github.io/Pet/",
+    "User": "User",
+    "Password": "Password",
+    "CatFactUrl": "https://catfact.ninja",
+    "DogFactUrl": "https://dogapi.dog/api/v2",
+    "TokenUrl": "https://login.microsoftonline.com/{0}/oauth2/v2.0/token",
+    "TenantId": "0000aa0a-00a0-0a0a-aa00-a000a0aaa00a",
+    "ClientId": "0000aa0a-00a0-0a0a-aa00-a000a0aaa00a",
+    "ClientSecret": "0000aa0a-00a0-0a0a-aa00-a000a0aaa00a",
+    "GrantType": "Password",
+    "Scope": "api://0000aa0a-00a0-0a0a-aa00-a000a0aaa00a/change-it.Manage openid profile offline_access"
+}

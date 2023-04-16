@@ -6,4 +6,17 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.json" Version="13.0.3" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Frontend\" />
+    <None Remove="Frontend\Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Frontend\" />
+    <Folder Include="Frontend\Pages\" />
+  </ItemGroup>
 </Project>

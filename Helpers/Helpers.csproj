@@ -1,7 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\DataProvider\DataPRovider.csproj" />
+    <ProjectReference Include="..\DataProvider\DataProvider.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="*" />
   </ItemGroup>
 
   <PropertyGroup>
