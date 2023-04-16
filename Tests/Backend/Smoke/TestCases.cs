@@ -11,17 +11,17 @@ namespace Tests.Backend.Smoke
 		[InlineData(300, HttpStatusCode.OK)]
 		public async Task GetCatFactReturnsResponseCodeOKTest(int maxLength, HttpStatusCode expectedCode)
 		{
-            HttpResponseMessage response = await endpoints.GetCatFactsAsync(maxLength);
+			HttpResponseMessage response = await endpoints.GetCatFactsAsync(maxLength);
 			HttpStatusCode actualCode = response.StatusCode;
 			Assert.Equal(actualCode, expectedCode);
 		}
 
-        [Fact]
-        public async Task GetDogFactReturnsResponseCodeOKTest()
-        {
-            HttpResponseMessage response = await endpoints.GetDogFactsAsync();
-            HttpStatusCode actualCode = response.StatusCode;
-            Assert.Equal(HttpStatusCode.OK, actualCode);
-        }
-    }
+		[Fact]
+		public async Task GetDogFactReturnsResponseCodeOKTest()
+		{
+			HttpResponseMessage response = await endpoints.GetDogFactsAsync();
+			HttpStatusCode actualCode = response.StatusCode;
+			Assert.Equal(HttpStatusCode.OK, actualCode);
+		}
+	}
 }
