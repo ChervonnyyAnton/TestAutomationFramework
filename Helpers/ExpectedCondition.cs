@@ -26,7 +26,7 @@ namespace Helpers
 
                 try
                 {
-                    return webElement is { Enabled: true } ? webElement : null;
+                    return webElement.Enabled ? webElement : null;
                 }
                 catch (StaleElementReferenceException)
                 {
@@ -37,7 +37,7 @@ namespace Helpers
 
         private static IWebElement ElementIfVisible(IWebElement element)
         {
-            return element is { Displayed: false } ? null : element;
+            return element.Displayed ? null : element;
         }
     }
 }
